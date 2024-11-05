@@ -27,8 +27,6 @@ class Form{
         echo "</form>";
     }
 }
-
 class FormMahasiswa{
-
 }
 ?>

@@ -6,8 +6,7 @@ class Buku{
     protected $penerbit;
     protected $tahun;
 
-    public function __construct($judul, $pengarang, $penerbit, $tahun)
-    {
+    public function __construct($judul, $pengarang, $penerbit, $tahun){
         $this->judul = $judul;
         $this->pengarang = $pengarang;
         $this->penerbit = $penerbit;
@@ -15,6 +14,9 @@ class Buku{
     }
     public function setId($id){//+
         $this->id = $id;
+    }
+    public function getId(){//+
+        return $this->id;
     }
     public function getJudul(){
         return $this->judul;
@@ -25,8 +27,7 @@ class Buku{
     public function getPenerbit(){
         return $this->penerbit;
     }
-
- public function getTahun(){
+    public function getTahun(){
         return $this->tahun;
     }
 }

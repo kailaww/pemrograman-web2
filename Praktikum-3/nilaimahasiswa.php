@@ -29,6 +29,7 @@
         </thead>
         <tbody>
             <?php
+            
                 include "nilai.php";
                 $mhs1 = new Nilai();
                 $mhs1->setTugas(90);

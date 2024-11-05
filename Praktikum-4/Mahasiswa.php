@@ -1,5 +1,4 @@
 <?php
-
 require_once "Orang.php";
 require_once "Nilai.php";
 
@@ -12,20 +11,16 @@ class Mahasiswa extends Orang {
     {
         $this->nim = $nim;
     }
-
     public function setNilai($nilai){
         $this->nilai = $nilai;
     }
-
     //return = kata kunci yang digunakan untuk mengembalikan nilai dari sebuah function
     public function getNim(){
         return $this->nim;
     }
-
     public function getNilai(){
         return $this->nilai;
     }
-
     public function tampilkanData(){
         echo "Nama : " . $this->nama . "<br>";
         echo "Nim : " . $this->nim . "<br>";
